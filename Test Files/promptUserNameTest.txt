@@ -1,0 +1,5 @@
+Input Name       Expected Output                               Actual Output 
+
+Irene            Hello Irene! Welcome to Word Scramble         Hello Irene! Welcome to Word Scramble
+purin            Hello purin! Welcome to Word Scramble         Hello purin! Welcome to Word Scramble
+natsUMi          Hello natsUMi! Welcome to Word Scramble       Hello natsUMi! Welcome to Word Scramble

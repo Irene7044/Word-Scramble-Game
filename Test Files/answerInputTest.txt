@@ -1,0 +1,41 @@
+Word to guess = "cat"
+
+Guess Count      Input     Output                                 Expected Output
+
+------------------------------------------------------------------------------------------------------- Test 1 
+
+     1            cat      Correct!                                 Correct! 
+   
+------------------------------------------------------------------------------------------------------- Test 2 
+
+     1           kgf       Incorrect. You have 2 more guesses       Incorrect. You have 2 more guesses
+     2           djw       Incorrect. You have 1 more guesses       Incorrect. You have 1 more guesses
+     3           wjc       Incorrect. You have 0 more guesses       Incorrect. You have 0 more guesses 
+
+------------------------------------------------------------------------------------------------------- Test 3 
+
+     1           ;;;       Invalid guess. Please ensure your        Invalid guess. Please ensure your 
+                           guess only consist of alphabetical       guess only consist of alphabetical 
+                           letters. Please try again.               letters. Please try again.
+
+     1           ;.g       Invalid guess. Please ensure your        Invalid guess. Please ensure your 
+                           guess only consist of alphabetical       guess only consist of alphabetical 
+                           letters. Please try again.               letters. Please try again.
+
+     1           cat       Correct!                                 Correct! 
+ 
+------------------------------------------------------------------------------------------------------- Test 4 
+
+     1         www         Incorrect. You have 2 more guesses       Incorrect. You have 2 more guesses
+
+     2         ccwe        Error. Your guess is too long.           Error. Your guess is too long. 
+                           Please try again.                        Please try again.
+
+     2         f           Error. Your guess is too short.          Error. Your guess is too short. 
+                           Please try again.                        Please try again.
+
+     2         cat         Correct!                                 Correct!
+
+-------------------------------------------------------------------------------------------------------
+                           
+ 

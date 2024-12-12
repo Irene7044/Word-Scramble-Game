@@ -1,0 +1,19 @@
+Word to guess (randomString) = 'cat'
+
+
+Testing Loop Function: 
+ 
+Input Guess                      Expected Output                                         Output 
+'cat'                            'Correct!'                                             'Correct!'
+                                 'Please enter your guess' (Next word)                  'Please enter your guess' (Next word)
+
+Game over (used all guesses)     'Incorrect. You have 0 more guesses'                   'Incorrect. You have 0 more guesses'
+                                 'Game Over! You ran out of guesses. The word was cat'  'Game Over! You ran out of guesses. The word was cat'
+                                 (Play Again message dialogue appears)                  (Play Again message dialogue appears)
+
+
+Testing Play Again message dialogue: 
+
+Input        Expected Output                          Output 
+Play Again   'Please eneter your guess' (New round)  'Please eneter your game' (New round)
+Quit         'Thank you for playing!' (End game)     'Thank you for playing!' (End game)

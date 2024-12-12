@@ -1,0 +1,31 @@
+Word to guess (randomString) = 'cat' 
+
+
+Test 1:
+                 Correct No. Gueese      Expected Output                  Output
+
+Game Round 1:    0                       Your Game Point: 0               Your Game Point: 0
+                                         Your highscore is: 0 points      Your highscore is: 0 points
+
+Game Round 2:    5                       Your Game Point: 5               Your Game Point: 5
+                                         New highscore: 5 Points          New highscore: 5 Points
+                                         Your highscore is: 5 points      Your highscore is: 5 points                       
+
+
+
+Test 2: 
+
+Game Round 1:    3                       Your Game Point: 3               Your Game Point: 3
+                                         New highscore: 3 Points          New highscore: 3 Points
+                                         Your highscore is: 3 points      Your highscore is: 3 points
+
+Game Round 1:    2                       Your Game Point: 2               Your Game Point: 2
+                                         Your highscore is: 3 points      Your highscore is: 3 points    
+
+
+
+Test 3:                   
+ 
+Game Round 1:   10                       Your Game Point: 10              Your Game Point: 10
+                                         New highscore: 10 Points         New highscore: 10 Points
+                                         Your highscore is: 10 points     Your highscore is: 10 points

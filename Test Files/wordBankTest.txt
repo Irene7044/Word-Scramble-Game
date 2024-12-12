@@ -1,0 +1,18 @@
+
+
+Input                                              Expected Output                                Output
+animalWords = ["cat" ; "koala" : "kangaroo]        easyAnimalWords = ["cat"]                      easyAnimalWords = ["cat"]
+                                                   hardAnimalWords = ["koala"]                    hardAnimalWords = ["koala"]
+                                                   difficultAnimalWords ["kangaroo"]              difficultAnimalWords ["kangaroo"]
+
+foodWords = ["chocolate" ; "rice"]                 easyFoodWords = ["rice"]                       easyFoodWords = ["rice"]
+                                                   hardFoodWords = []                             hardFoodWords = []
+                                                   difficultFoodWords ["chocolate"]               difficultFoodWords ["chocolate"]
+
+generalWords = ["about" "which" "grumpy"]          easyGeneralWords = []                          easyGeneralWords = []
+                                                   hardGeneralWords = ["about" "which" "grumpy"]  hardGeneralWords = ["about" "which" "grumpy"]
+                                                   difficultGeneralWords []                       difficultGeneralWords []
+
+
+ 
+

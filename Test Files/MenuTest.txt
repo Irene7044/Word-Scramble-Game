@@ -1,0 +1,5 @@
+  Welcome menu input     Expected Output       Actual Output  
+
+      Rules              Rules Menu            Rules Menu 
+      Play               Difficulty Menu       Difficulty Menu
+      Quit               Exit all menu         Exit all menu

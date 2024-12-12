@@ -1,0 +1,20 @@
+
+animalWords = ["cat" "koala" ; "kangaroo" "turtle"]
+foodWords = ["rice" "noodle" ; "chocolate" "curry"]
+generalWords = ["bad" "happy" ; "effortless" "plain"];
+
+
+Difficulty Input   Topic Input     Output                     Expected Output
+
+     Easy             General     adb (bad)                 general word length <= 4 
+     Easy             Food        riec (Rice)               food word length <= 4
+     Easy             Animal      act (cat)                 animal word length <= 4 
+     
+     Hard             General     plina (plain)             general word length 5 - 6 
+     Hard             Food        rcuyr (curry)             food word length 5 - 6 
+     Hard             Animal      aloak (koala)             animal word length 5 - 6
+
+     Difficult        General     ssrefitfeol (effortless)  general word length >= 7 
+     Difficult        Food        aeococtlh (chocolate)     food word length >= 7 
+     Difficult        Animal      goakorna (kangaroo)       animal word length >= 7 
+     

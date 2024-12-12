@@ -1,0 +1,5 @@
+Input        Expected Output        Actual Output
+
+General          1                        1
+Food             2                        2
+Animals          3                        3
